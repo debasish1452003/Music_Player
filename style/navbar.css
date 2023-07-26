@@ -1,0 +1,38 @@
+body{
+    background-color: antiquewhite;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar */
+
+ul img{
+    height: 40px;
+    padding: 0 8px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
